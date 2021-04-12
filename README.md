@@ -1,4 +1,4 @@
-# CRUD | Prueba técnica de Epico!
+# CRUD Codeigniter | Prueba técnica de Epico!
 
 Proyecto de prueba de un servicio CRUD realizado en Codeigniter y base de datos MySQL para solicitud de empleo en Epico!.
 
