@@ -1,0 +1,193 @@
+ERROR - 2021-04-12 12:50:20 --> mysqli_sql_exception: Column 'pic_filename' cannot be null in /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /mnt/d/Projects/web/codeigniter/crud/app/Controllers/ItemsController.php(30): CodeIgniter\Model->insert()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->store()
+#9 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#13 {main}
+CRITICAL - 2021-04-12 12:52:11 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or ','
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#9 {main}
+CRITICAL - 2021-04-12 12:52:18 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or ','
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#9 {main}
+CRITICAL - 2021-04-12 12:52:27 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or ','
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#9 {main}
+CRITICAL - 2021-04-12 12:52:46 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or ','
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#9 {main}
+CRITICAL - 2021-04-12 12:54:13 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or ','
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#9 {main}
+ERROR - 2021-04-12 12:54:44 --> mysqli_sql_exception: Column 'pic_filename' cannot be null in /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /mnt/d/Projects/web/codeigniter/crud/app/Controllers/ItemsController.php(31): CodeIgniter\Model->insert()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->store()
+#9 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#13 {main}
+CRITICAL - 2021-04-12 12:58:06 --> Call to a member function view() on null
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->create()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#5 {main}
+CRITICAL - 2021-04-12 13:00:38 --> Call to a member function library() on null
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->create()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#5 {main}
+ERROR - 2021-04-12 13:07:52 --> mysqli_sql_exception: Column 'pic_filename' cannot be null in /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /mnt/d/Projects/web/codeigniter/crud/app/Controllers/ItemsController.php(42): CodeIgniter\Model->insert()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->store()
+#9 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#13 {main}
+ERROR - 2021-04-12 13:11:54 --> mysqli_sql_exception: Column 'pic_filename' cannot be null in /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /mnt/d/Projects/web/codeigniter/crud/app/Controllers/ItemsController.php(42): CodeIgniter\Model->insert()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->store()
+#9 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#13 {main}
+ERROR - 2021-04-12 13:12:52 --> mysqli_sql_exception: Column 'pic_filename' cannot be null in /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /mnt/d/Projects/web/codeigniter/crud/app/Controllers/ItemsController.php(50): CodeIgniter\Model->insert()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->store()
+#9 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#13 {main}
+CRITICAL - 2021-04-12 14:13:27 --> Call to a member function flashdata() on null
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->update()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#5 {main}
+CRITICAL - 2021-04-12 14:14:04 --> Call to a member function flashdata() on null
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->update()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#5 {main}
+CRITICAL - 2021-04-12 14:14:59 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->update()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#5 {main}
+CRITICAL - 2021-04-12 14:30:29 --> syntax error, unexpected ';'
+#0 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists()
+#5 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/d/Projects/web/codeigniter/crud/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /mnt/d/Projects/web/codeigniter/crud/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(45): require_once('/mnt/d/Projects...')
+#9 {main}
+ERROR - 2021-04-12 15:28:56 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-04-12 15:28:56 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

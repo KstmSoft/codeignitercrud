@@ -1,0 +1,108 @@
+ERROR - 2021-05-31 19:53:11 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:11 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:14 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:14 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:14 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:15 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:15 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:16 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:16 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:16 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:16 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:17 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:17 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-31 19:53:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-05-31 19:53:17 --> Unable to connect to the database.
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 /var/www/html/app/Controllers/ItemsController.php(10): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\ItemsController->index()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemsController))
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
